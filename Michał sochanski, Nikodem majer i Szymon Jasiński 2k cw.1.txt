@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>ćw-01_HTML</title>
+    <style>
+        /* Część B: Formatowanie tekstu */
+        body {
+            font-family: Arial, sans-serif; 
+        }
+        h1 {
+            font-family: "Courier New", monospace; 
+            color: darkblue; 
+        }
+        .highlight {
+            font-size: 1.5em; /* Powiększenie liter od drugiej zwrotki */
+            color: red; /* Zmiana koloru powiększonych liter */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Część A: Struktura dokumentu -->
+
+    <h1>Abecadło</h1> <!-- Nagłówek 1 stopnia dla tytułu -->
+
+    <p>
+        Abecadło z pieca spadło,<br>
+        O ziemię się hukło,<br>
+        Rozsypało się po kątach,<br>
+        Strasznie się potłukło:
+    </p>
+
+    <p>
+        <span class="highlight">I</span> -- zgubiło kropeczkę,<br>
+        <span class="highlight">H</span> -- zgubiło kładeczkę,<br>
+        <span class="highlight">B</span> -- zbiło sobie brzuszki,<br>
+        <span class="highlight">A</span> -- zwichnęło nóżki,
+    </p>
+
+    <p>
+        <span class="highlight">O</span> -- jak balon pękło,<br>
+        aż się <span class="highlight">P</span> przelękło,<br>
+        <span class="highlight">T</span> -- daszek zgubiło,<br>
+        <span class="highlight">L</span> -- do <span class="highlight">U</span> wskoczyło,
+    </p>
+
+    <p>
+        <span class="highlight">S</span> -- się wyprostowało,<br>
+        <span class="highlight">R</span> -- prawą nogę złamało,<br>
+        <span class="highlight">W</span> -- stanęło do góry dnem,<br>
+        i udaje, że jest <span class="highlight">M</span>.
+    </p>
+
+    <h3>Julian Tuwim</h3> <!-- Nagłówek 3 stopnia dla autora wiersza -->
+
+
+
+</body>
+</html>
